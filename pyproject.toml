@@ -1,0 +1,12 @@
+[project]
+name = "dm-bucket"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "boto3>=1.42.50",
+    "dynaconf>=3.2.12",
+    "rich>=14.3.2",
+    "typer>=0.24.0",
+]
