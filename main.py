@@ -47,7 +47,7 @@ def remote_delete(
     scan = s3_client.scan_delete_markers()
     delete = s3_client.remote_del(scan)
     if delete:
-        console.print('[green] Elimicación exitosa')
+        console.print('[green] Eliminación exitosa') 
 
 
 if __name__ == "__main__":

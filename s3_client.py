@@ -64,7 +64,6 @@ class S3Client:
             return
         objetos_data = {key:value for key, value in data.items() if value.get('tiene_delete_marker_activo') == True
                         and any(versions.get('Type') == 'DeleteMarker' for versions in value.get('versions', []))}
-        
         delete_batch = {
             'Objects': [ 
                 {
@@ -77,15 +76,14 @@ class S3Client:
             ]
         }
 
-        if delete_batch['Objects'][0]:
-            console.log(f'[yellow]Procediendo a eliminar[/] {len(delete_batch['Objects'][0])} markers...')
+        if delete_batch['Objects']:
+            console.log(f'[yellow]Procediendo a eliminar[/] {len(delete_batch['Objects'])} markers...')
             self.s3.delete_objects(
                 Bucket=settings.BUCKET_NAME,
-                Delete= {'Objects': [delete_batch['Objects'][0]]}
+                Delete= delete_batch
             )
-            console.log(f'[green]Eliminados [/] {len(delete_batch['Objects'][0])} markes...')
+            console.log(f'[green]Eliminados [/] {len(delete_batch['Objects'])} markes...')
             return True
-
         else:
             console.print('No se encontraron markers para eliminar')
 
