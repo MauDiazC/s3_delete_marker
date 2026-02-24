@@ -1,0 +1,25 @@
+2026-02-24T00:36:24.027002-0600 | SUCCESS | Eliminados 458 markers del prefijo banco-azteca-sa-captacion-cuentas-v2/
+2026-02-24T00:41:15.362292-0600 | SUCCESS | Eliminados 329 markers del prefijo baz-rewardo-v1/
+2026-02-24T01:05:20.455633-0600 | SUCCESS | Eliminados 838 markers del prefijo baz-superapp-marketplace-recompensas-v1/
+2026-02-24T01:07:34.749231-0600 | SUCCESS | Eliminados 130 markers del prefijo enrolamiento-autenticacion-usuarios-v1/
+2026-02-24T01:50:10.757996-0600 | SUCCESS | Eliminados 1817 markers del prefijo enrolamiento-gestion-usuarios-v1/
+2026-02-24T01:53:09.184492-0600 | SUCCESS | Eliminados 258 markers del prefijo revenue-marketplace-promociones-v1/
+2026-02-24T01:57:25.324025-0600 | SUCCESS | Eliminados 2623 markers del prefijo superapp-canal-centro-comercial-gestion-busquedas-v1/
+2026-02-24T02:00:57.609847-0600 | SUCCESS | Eliminados 2943 markers del prefijo superapp-canal-centro-mensajes-v1/
+2026-02-24T02:04:01.123634-0600 | SUCCESS | Eliminados 947 markers del prefijo superapp-canal-clientes-gestion-token-v1/
+2026-02-24T02:11:12.074648-0600 | SUCCESS | Eliminados 10515 markers del prefijo superapp-canal-clientes-gestion-usuarios-v1/
+2026-02-24T02:21:54.960513-0600 | SUCCESS | Eliminados 4019 markers del prefijo superapp-canal-usuarios-autenticaciones-v1/
+2026-02-24T02:24:25.801190-0600 | SUCCESS | Eliminados 865 markers del prefijo superapp-carretera-transporte-gestion-autobuses-v1/
+2026-02-24T02:28:22.817538-0600 | SUCCESS | Eliminados 5744 markers del prefijo superapp-compras-comercios-elektra-digital-carrito-compras-v1/
+2026-02-24T02:40:51.421336-0600 | SUCCESS | Eliminados 3939 markers del prefijo superapp-compras-comercios-elektra-digital-catalogos-v2/
+2026-02-24T02:48:31.064642-0600 | WARNING | No se encontraron markers para eliminar en el prefijo superapp-compras-comercios-elektra-digital-credito-gestion-pedidos-v1/
+2026-02-24T02:54:44.152814-0600 | SUCCESS | Eliminados 5223 markers del prefijo superapp-compras-comercios-elektra-digital-gestion-clientes-v1/
+2026-02-24T03:03:57.445162-0600 | SUCCESS | Eliminados 13481 markers del prefijo superapp-compras-comercios-elektra-digital-gestion-pedidos-v1/
+2026-02-24T03:08:09.622839-0600 | SUCCESS | Eliminados 1667 markers del prefijo superapp-compras-comercios-elektra-digital-pagos-gestion-solicitudes-v1/
+2026-02-24T03:11:06.533438-0600 | SUCCESS | Eliminados 26 markers del prefijo superapp-compras-comercios-elektra-digital-postventas-gestion-pedidos-v1/
+2026-02-24T03:13:02.334139-0600 | SUCCESS | Eliminados 215 markers del prefijo superapp-compras-elektra-digital-catalogos-v2/
+2026-02-24T03:14:51.155235-0600 | SUCCESS | Eliminados 392 markers del prefijo superapp-compras-elektra-digital-creditos-v1/
+2026-02-24T03:16:55.407839-0600 | SUCCESS | Eliminados 137 markers del prefijo superapp-compras-elektra-digital-gestion-clientes-v1/
+2026-02-24T03:19:05.180302-0600 | SUCCESS | Eliminados 88 markers del prefijo superapp-compras-elektra-digital-gestion-pedidos-v2/
+2026-02-24T03:21:39.225565-0600 | SUCCESS | Eliminados 468 markers del prefijo superapp-credito-cartera-prospectos-v1/
+2026-02-24T03:26:08.401605-0600 | SUCCESS | Eliminados 2740 markers del prefijo superapp-dashboard-v1/

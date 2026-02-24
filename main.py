@@ -1,11 +1,13 @@
 import typer
 from rich.console import Console
 from rich.panel import Panel
+from loguru import logger
 
 from s3_client import S3Client
 
 app = typer.Typer()
 console = Console()
+
 
 @app.command()
 def scan(
@@ -47,7 +49,7 @@ def remote_delete(
     scan = s3_client.scan_delete_markers()
     delete = s3_client.remote_del(scan)
     if delete:
-        console.print('[green] Eliminación exitosa') 
+        console.print('[green] Eliminación exitosa')
 
 
 if __name__ == "__main__":
